@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+.container{
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.contain{
+    height: 100vh;
+    width: 100%;
+    background: url(../../assets/imagenes/fondo3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    
+}
+.con{
+    background: rgba(12, 12, 12, 0.808);
+    position: relative;
+    top: 35%;
+    width: 100%;
+    height: 250px;
+ 
+
+}
+.con span{
+    top:55px;
+    color: rgb(248, 247, 247);
+    font-size: 4rem;
+    position: relative;
+    font-family: 'Abril Fatface', cursive;
+}
+
+
+
+
+
+
+
+
+
+
+.separador{
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #d9d9d9;
+}
+.separador p{
+
+    padding: 15px;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(109, 107, 107);
+
+}
+
+
+
+
+
+
+
+
+.container h1{
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.img{
+    width: 100%;
+    height: 320px;
+}
+.card{
+    width: 320px;
+    height: 450px;
+}
+.container1{
+    width: 100%;
+    max-width: 1200px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    height: 5100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+.container1 .card{
+    width: 330px;
+    height: 470px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+
+}
+.container1 .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+.container1 .card img{
+    width: 330px;
+    height: 290px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.row{
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin:auto;
+
+}
+.row1{
+    justify-content: center;
+   background: rgb(245, 245, 242);
+   padding: 0;
+
+}
+.row2{
+    justify-content: center;
+   background: rgb(245, 245, 242);
+
+}
+
+.colum{
+    margin-top: 15px;
+    width: 250px;
+    height: 350px;
+    border: solid 0,11px;
+
+}
+.title{
+    margin-top: 55px;
+    text-align: center;
+    width: 250px;
+}
+.colum1{
+    margin-top: 15px;
+    margin-left: 40px;
+    margin-right: 50px;
+    width: 250px;
+    height: 350px;
+    border: solid 0,11px;
+}
+.servicios{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.title1{
+    margin-top: 55px;
+    margin-right: 5px;
+    text-align: center;
+    margin-left: 40px;
+    width: 250px;
+}
+.piePagina{
+    
+    width: 100%;
+    height: 300px;
+}
+.p1{
+    color: rgb(219, 216, 216);
+    margin-top: 30px;
+}
+.p2{
+  margin-top: -70px;
+}
+.pie{
+    height: 300px;
+}
+.input{
+    background: rgb(84, 84, 85);
+    border: none;
+    border-radius: 3px;
+    height: 40px;
+    width: 75%;
+    color: white;
+    margin-top: 10px;
+}
+.btn{
+    margin-top: 10px;
+    background: rgb(202, 202, 204);
+    border: none;
+    border-radius: 3px;
+    height: 40px;
+    width: 75%;
+}
+.p1{
+text-align: center;
+color:rgb(243, 243, 243);
+position: relative;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 440px) { 
+    .con{
+        width: 280px;
+        height: 150px;
+        top: 40%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    left: 10%;
+    position: relative;
+    }
+    .con span{
+        font-size: 2.3rem;
+    }
+    .title{
+        display: none;
+    }
+    .title1{
+        display: none;
+    }
+    .pie{
+        width: 100%;
+        height: 50px;
+    }
+    .piePagina{
+        height: 420px;
+    }
+    .p1{
+        margin-top: 0;
+    }
+    .p2{
+        margin-top: 140px;
+    }
+    .input{
+        display: none;
+
+    }
+    .btn{
+        display: none;
+    }
+    .container1{
+        width: 320px;
+    }
+    .separador{
+        height: 120px;
+    }
+}
+   
