@@ -2,10 +2,8 @@ import React from 'react';
 import "./servicios.css";
 import servicio_tecnico from "../../assets/imagenes/servicio_tecnico.jpg"
 import "animate.css"
-import  Example  from '../../hooks/modal';
+import InfoServices from '../infoServices/infoServices';
 import Footer from '../footer/footer';
-
-
 
  const Servicios = () => {
 
@@ -27,38 +25,12 @@ import Footer from '../footer/footer';
 
              <div className="separador">
                     <p> Nuestro trato, rapidez, experiencia y el desarrollo de soluciones personalizadas. Nuestros clientes siempre son prioridad </p>
-                 </div>       
-
+                 </div>
                     <h1 className="servi_ofre animate__animated animate__fadeInLeft">Servicios que te Ofrecemos</h1>
-
-                <Example />
-            
+                <InfoServices />
                <Footer />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-               
         </div>
     )
 }
 
-export default Servicios; 
+export default Servicios;
