@@ -97,3 +97,7 @@ html,body{
 .cursor-pointer {
     cursor: pointer;
 }
+
+.modal-footer {
+    justify-content: center;
+}

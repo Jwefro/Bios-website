@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Laptop",
+    "list": [
+      "Revision",
+      "Mantenimiento General Preventivo",
+      "Mantenimiento General Correctivo (Reparacion)",
+      "Cambio de Componetes",
+      "Reconstruccion  de Carcasa"
+    ]
+  },
+  {
+    "name": "Modem/Router",
+    "list": [
+      "Revision",
+      "Configuracion",
+      "Actualizacion de Firmware",
+      "Reparacion, Cambio de Componentes"
+    ]
+  },
+  {
+    "name": "CPU",
+    "list": [
+      "Revision",
+      "Mantenimiento General Preventivo",
+      "Mantenimiento General Correctivo (Reparacion)",
+      "Cambio de Componetes"
+    ]
+  },
+  {
+    "name": "Monitor",
+    "list": [
+      "Revision",
+      "Mantenimiento",
+      "Reparacion"
+    ]
+  },
+  {
+    "name": "Impresoras",
+    "list": [
+      "Revision Sencilla",
+      "Revision Profunda",
+      "EPSON Mantenimiento General (reset + almohadillas + cabezal + purga)",
+      "Limpieza de Almohadillas y Carcasa",
+      "Limpieza Cabezal Sencilla",
+      "Limpieza Cabezal Profunda",
+      "EPSON Reset de Impresión",
+      "EPSON Purga de Mangueras",
+      "EPSON Instalacion de Sistema de Tinta Continua",
+      "EPSON Instalacion de Tanque Desagüe",
+      "Reparacion Atasco o Toma de Papel",
+      "Reparacion de Tarjeta Logica",
+      "Reparacion de fuente",
+      "Cambio de Componente + Pieza",
+      "Recarga de Tinta",
+      "Reconstruccion de Componente",
+      "EPSON Mantenimiento General Matriz de Punto"
+    ]
+  },
+  {
+    "name": "Accesorios",
+    "list": [
+      "Pendrive Limpieza de Virus",
+      "Pendrive Recuperacion de Data",
+      "Revision",
+      "Reparacion de accesorios",
+      "Fuente de poder - Mantenimiento",
+      "Fuente de poder - Reparacion",
+      "Cargador - Reparacion de Punta",
+      "Cargador - Reparacion de Cable",
+      "Cargador - Reparacion Base de Cable",
+      "Cargador - Reparacion de Fuente de Poder,",
+      "HDD - Respaldo de Datos",
+      "HDD - Recuperacion de Data"
+    ]
+  }
+]
