@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,600&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -113,8 +113,73 @@ height: 5100%;
 }
 
 
+/* Desarrolllo web */
+
+.contenidoWeb{
+
+    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    margin: auto;
+}
+.contenidoWebH2{
+    color: tomato;
+}
+.contenidoWeb .row p{
+margin: 0;
+padding: 5px;
+text-align: left;
+}
 
 
+
+
+
+
+
+
+
+/* Presupuesto */
+
+.necesitasPresupuesto{
+    background: url(../../assets/imagenes/necesitasPreusupuesto.jpg);
+    height: 450px;
+    width: 93%;
+    display: flex;
+    margin: auto;
+    justify-content:center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.contenidoPresupuesto{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.527);
+    text-align: center;
+    color: white;
+}
+.centrarPresupuesto{
+    align-items: center;
+    margin-top: 150px;
+}
+.centrarPresupuesto p{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+.centrarPresupuesto h2{
+    font-family: 'Poppins', sans-serif;
+}
+.buttonPresupuesto{
+    height: 45px;
+    width: 350px;
+    background: rgb(148, 12, 12);
+    color: white;
+    
+}
 
 
 

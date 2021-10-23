@@ -2,7 +2,7 @@ import './contactos.css'
 import React from 'react'
 import Footer from '../footer/footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faAddressBook, faAt, faEnvelope, faPhone} from '@fortawesome/free-solid-svg-icons';
+import {faAddressBook, faAt, faEnvelope, faPhone, faUser} from '@fortawesome/free-solid-svg-icons';
 function Contactos() {
     return (
         <div>
@@ -76,12 +76,12 @@ function Contactos() {
                     <div className="row">
                         <div className="row">
                         <div className="col-6">
-                            <label htmlFor="">Nombre</label>
-                            <input type="text" placeholder=" Nombre completo" />
+                            <label htmlFor=""><FontAwesomeIcon icon={faUser}/></label>
+                            <input type="text" placeholder={' Nombre completo'} />
 
                         </div>
                         <div className="col-6">
-                            <label htmlFor="" >Telefono</label>
+                            <label htmlFor="" ><FontAwesomeIcon icon={faPhone}/></label>
                             <input type="text" placeholder=" 914-123-456" />
                         </div>
                       </div>
