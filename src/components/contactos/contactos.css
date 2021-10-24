@@ -9,6 +9,7 @@ background-position: center;
     justify-content: center;
     align-items: center;
 }
+
 .fondoContacto h1{
     top:155px;
     color: rgb(248, 247, 247);
@@ -16,12 +17,22 @@ background-position: center;
     position: relative;
     font-family: Arial, Helvetica, sans-serif ;
 }
+
+.fondoContacto a {
+    top:156px;
+    margin-left: .8rem;
+    color: rgb(248, 247, 247);
+    font-size: 2.5rem;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
 .conta{
     background: rgba(12, 12, 12, 0.527);
     position: relative;
     width: 100%;
     height: 100%;
- 
+
 
 }
 .aten{
@@ -161,7 +172,17 @@ margin-bottom: 50px;
     font-family: Arial, sans-serif;
     color: rgb(129, 129, 129);
 
+
+}
+.box{
     
+}
+.box input{
+    border:none ;
+    
+}
+.form input a:hover{
+    border-color: steelblue;
 }
 .form input {
     margin-left: 5px;
@@ -169,6 +190,7 @@ margin-bottom: 50px;
     width: 90%;
     border: none;
     border-bottom: solid silver 1px;
+    padding: 0.4rem;
 
 }
 .form .consulta{
@@ -192,5 +214,5 @@ margin-bottom: 50px;
    .infoContactar .row .col-1{
        margin-right: 15px;
    }
-    
+
 }

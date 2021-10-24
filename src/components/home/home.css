@@ -289,6 +289,7 @@ position: relative;
     }
     .con span{
         font-size: 2.3rem;
+        top: 20px;
     }
     .title{
         display: none;

@@ -1,0 +1,48 @@
+
+.portadaProductos{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(48, 47, 47);
+}
+.carrusel{
+    position: relative;
+    top: 70px;
+}
+.separadorimg{
+    justify-content: center;
+    margin: 0;
+    display: flex;
+
+    flex-wrap: wrap;
+}
+.textlenovo{
+justify-content: center;
+width: 400px;
+
+}
+.separadorimg h3{
+    color: white;
+    text-align: left;
+    margin-top: 20px;
+}
+.separadorimg p{
+    color: white;
+    text-align: left;
+    display: flex;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 440px){
+    .textlenovo p{
+        display: none;
+        
+    }
+    .textlenovo h3{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .imgcarousel{
+        height: 300px;
+        width: 300px;
+    }
+}

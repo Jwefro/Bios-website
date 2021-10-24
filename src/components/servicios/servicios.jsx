@@ -2,10 +2,10 @@ import React from 'react';
 import "./servicios.css";
 import servicio_tecnico from "../../assets/imagenes/servicio_tecnico.jpg"
 import "animate.css"
-import  Example  from '../../hooks/modal';
+import InfoServices from '../infoServices/infoServices';
 import Footer from '../footer/footer';
-
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChalkboardTeacher, faChartBar } from '@fortawesome/free-solid-svg-icons';
 
  const Servicios = () => {
 
@@ -14,7 +14,7 @@ import Footer from '../footer/footer';
 
             <div className="portada">
                 <div className="row row">
-                    <div className="portada_text col-5 animate__animated animate__fadeInLeft ">
+                    <div className="portada_text col-5 ">
                         <p className="p3">¿Necesitas Soporte Tecnico?</p>
                         <p className="p4"> Te ofrecemos un excelente servicio en recuperacion de datos, instalacion de programas, Mantenimiento preventivo y correctivo de Software y Hardware</p>
                     </div>
@@ -30,17 +30,18 @@ import Footer from '../footer/footer';
                  </div>       
 
                     <h1 className="contenidoWebH2 servi_ofre animate__animated animate__fadeInLeft">Servicio Tecnico </h1>
-                        <h5>Puedes ver la lista de servicio tecnico que te ofrecemos por cada equipo clickeando en su nombre respectivo</h5>
-            
+                        <h5 className="mb-5 animate__animated animate__fadeInRight" >Puedes ver la lista de servicio tecnico que te ofrecemos por cada equipo clickeando en su nombre respectivo</h5>
+                        <br />
+                        <br />
 
-                <Example />
+                <InfoServices />
             
 <br />
 <br />
   
-              <h2 className="contenidoWebH2">Desarrollo de páginas web y tiendas online </h2>
+              <h2 className="contenidoWebH2 mt-5 wow animate__animated animate__fadeIn " data-wow-delay=".5s" data-wow-interation="1">Desarrollo de páginas web y tiendas online </h2>
 
-        <div className="container mb-5 mt-5"> 
+        <div className="container mb-5 mt-5 wow animate__animated animate__fadeIn " data-wow-delay=".7s" data-wow-interation="1"> 
             <p>            En <b>Bios servicios informaticos</b> disponemos de un Departamento especializado en el <b>desarrollo de páginas web</b>y <b>tiendas online de comercio electrónico</b> . Somos una empresa de informática que ofrece el desarrollo y diseño web, el diseño de tiendas online, re-diseño con adaptación a móviles, tablets y el diseño de páginas web cubriendo todas tus necesidades profesionales, institucionales y/o personales. 
 <br />
 <br />
@@ -49,38 +50,40 @@ Cubrimos todas las necesidades de su empresa en diseño web, encargándonos de t
         </div>
 
 
-              <div className="contenidoWeb">         
+        <div className="contenidoWeb">         
               
                 
-                  <div className="row">
-                  <div className="col-6">
-                      <h5>Diseño de Páginas Web</h5>
-                      <p>El proceso de diseño de tu página web se estructura en las siguientes fases:</p>
-                      <ul>
-                          
-                          <li><p>Estudio y análisis de su negocio y objetivos, así como el de la competencia, para así poder definir la estrategia online que tu empresa necesita.</p></li>
-                          <li><p>Definir el mensaje que se desea comunicar para implementar los elementos comunicativos necesarios en el diseño web y la generación de contenidos para tu web, siempre manteniendo la imagen corporativa.</p></li>
-                          <li><p>Realizar el diseño web y la programación de la página web.</p></li>
-                          <li><p>Una vez realizado el diseño web, programación y publicación de la página web, nuestro equipo de marketing online y social media, se encarga del mantenimiento y posicionamiento de la web en los principales buscadores como Google y en hacer que tu web sea visible para sus potenciales clientes.</p></li>
-                      </ul>
-                  </div>
-                  <div className="col-6">
-                      <h5>Diseño de Tiendas Online</h5>
-                      <p>Los proyectos de comercio electrónico que acometemos abarcan los siguientes aspectos:</p>
-                      <ul>
-                          
-                          <li><p>Diseño web responsivo: optimizado para todos los dispositivos.</p></li>
-                          <li><p>Múltiples formas de pago y envío: Tarjeta de Crédito (TPV), PayPal, contra reembolso…</p></li>
-                          <li><p>Buscadores a medida: pensados para facilitar a tus clientes encontrar rápidamente lo que buscan.</p></li>
-                          <li><p>Categorización con número de productos o servicios ilimitados: para que puedas poner a disposición de tus clientes todo tu catálogo online o aquellos que quieras destacar.</p></li>
-                          <li><p>Carrito optimizado para la venta: diseño orientado a flujos de venta rápida.</p></li>
-                          <li><p>Promociones y descuentos.</p></li>
-                          <li><p>Diseño profesional hecho a tu medida y pensado para OPTIMIZAR EL POSICIONAMIENTO WEB.</p></li>
-                          <li><p>Desarrollo flexible y escalable en el tiempo.</p></li>
-                      </ul>
-                  </div>
+       
+              <div className="contenidoW wow animate__animated animate__bounceIn " data-wow-delay=".5s" data-wow-interation="1">
+              <FontAwesomeIcon icon={faChalkboardTeacher} className="fontDiseño"/>
+                  <h5>Diseño de Páginas Web</h5>
+                  <p>El proceso de diseño de tu página web se estructura en las siguientes fases:</p>
+                  <ul>
+                      
+                      <li><p><b>Estudio y análisis</b> de su negocio y objetivos, así como el de la competencia, para así poder definir la estrategia online que tu empresa necesita.</p></li>
+                      <li><p><b>Definir el mensaje</b>  que se desea comunicar para implementar los elementos comunicativos necesarios en el diseño web y la generación de contenidos para tu web, siempre manteniendo la imagen corporativa.</p></li>
+                      <li><p><b>Realizar el diseño web</b>  y la programación de la página web.</p></li>
+                      <li><p>Una vez realizado el diseño web,<b>programación y publicación</b> de la página web, nuestro equipo de marketing online y social media, se encarga del mantenimiento y posicionamiento de la web en los principales buscadores como Google y en hacer que tu web sea visible para sus potenciales clientes.</p></li>
+                  </ul>
               </div>
+              <div className="contenidoW wow animate__animated animate__bounceIn " data-wow-delay=".5s" data-wow-interation="1">
+                  <FontAwesomeIcon icon={faChartBar} className="fontDiseño"/>
+                  <h5>Diseño de Tiendas Online</h5>
+                  <p>Los proyectos de comercio electrónico que acometemos abarcan los siguientes aspectos:</p>
+                  <ul>
+                      
+                      <li><p><b>Diseño web responsivo</b>: optimizado para todos los dispositivos.</p></li>
+                      <li><p><b>Múltiples formas de pago y envío</b>: Tarjeta de Crédito (TPV), PayPal, contra reembolso…</p></li>
+                      <li><p><b>Buscadores a medida</b>: pensados para facilitar a tus clientes encontrar rápidamente lo que buscan.</p></li>
+                      <li><p><b>Categorización con número de productos o servicios ilimitados</b>: para que puedas poner a disposición de tus clientes todo tu catálogo online o aquellos que quieras destacar.</p></li>
+                      <li><p><b>Carrito optimizado para la venta</b>: diseño orientado a flujos de venta rápida.</p></li>
+                      <li><p><b>Promociones y descuentos</b>.</p></li>
+                      <li><p><b>Diseño profesional hecho a tu medida</b> y pensado para OPTIMIZAR EL POSICIONAMIENTO WEB.</p></li>
+                      <li><p><b>Desarrollo flexible</b> y escalable en el tiempo.</p></li>
+                  </ul>
               </div>
+     
+          </div>
               
 
             <div className="necesitasPresupuesto shadow">
@@ -97,31 +100,8 @@ Cubrimos todas las necesidades de su empresa en diseño web, encargándonos de t
 <br />
 <br />
                <Footer />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-               
         </div>
     )
 }
 
-export default Servicios; 
+export default Servicios;

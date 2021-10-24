@@ -5,6 +5,7 @@ import servicio1 from "../../assets/imagenes/servicio1.jpg";
 import productos1 from "../../assets/imagenes/productos1.jpg";
 import DS1 from "../../assets/imagenes/DS1.jpg";
 import Footer from '../footer/footer';
+import Carousel from '../carousel/carousel';
 const Home = () => {
     return (
         <div className="">
@@ -62,12 +63,24 @@ Estamos especializados en diseño y desarrollo de aplicaciones web.</p>
 
 
         </div>
-        
+         <Carousel />
+
+         <br />
+         <br />
+         
+        <div className="necesitasPresupuesto shadow mb-5">
+                <div className="contenidoPresupuesto">
+                    <div className="centrarPresupuesto"><h2>¿Necesitas un presupuesto para tu empresa?</h2>
+                    <p>Solicita una consulta y un técnico profesional de Bios Servicios informaticos te ofrecerá la mejor solución para tu problema. ¡Presupuesto sin compromiso!</p>
+
+                    <button type="button" className="btn buttonPresupuesto">Solicita tu presupuesto sin compromiso</button></div>
+                    
+                </div>
+            </div>
 
 
 
-
-
+   
 
 
     <Footer />
