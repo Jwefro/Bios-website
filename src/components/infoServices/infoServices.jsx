@@ -18,42 +18,42 @@ export default function Example() {
     return (
         <>
             <div className="row ">
-                <div onClick={() => handleShow('CPU')} className="con_servi shadow col-3">
+                <div onClick={() => handleShow('CPU')} className="cursor-pointer con_servi shadow col-3">
                     <span className="icon_servi" >
                         <FontAwesomeIcon icon={faDesktop}  />
                     </span>
                     <h5>CPU</h5>
                     <p> Reparacion y mantenimiento correctivo y preventido de software y hardware Para Computadoras de escritorio</p>
                 </div>
-                <div onClick={() => handleShow('Laptop')} className="con_servi shadow col-3">
+                <div onClick={() => handleShow('Laptop')} className="cursor-pointer con_servi shadow col-3">
                     <span className="icon_servi">
                         <FontAwesomeIcon icon={faLaptop} />
                     </span>
                     <h5>Laptop</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, voluptatibus!</p>
                 </div>
-                <div onClick={() => handleShow('Monitor')} className="con_servi shadow col-3">
+                <div onClick={() => handleShow('Monitor')} className="cursor-pointer con_servi shadow col-3">
                     <span className="icon_servi">
                         <FontAwesomeIcon icon={faTv} />
                     </span>
                     <h5>Monitor</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti doloremque fugiat id non quis sed?</p>
                 </div>
-                <div onClick={() => handleShow('Impresoras')} className="con_servi shadow col-3">
+                <div onClick={() => handleShow('Impresoras')} className="cursor-pointer con_servi shadow col-3">
                     <span className="icon_servi">
                         <FontAwesomeIcon icon={faPrint} />
                     </span>
                     <h5>Impresoras</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, repellat, sint. Dolorem odit qui tenetur.</p>
                 </div>
-                <div onClick={() => handleShow('Modem/Router')} className="con_servi shadow col-3">
+                <div onClick={() => handleShow('Modem/Router')} className="cursor-pointer con_servi shadow col-3">
                     <span className="icon_servi">
                         <FontAwesomeIcon icon={faHdd} />
                     </span>
                     <h5>Modem/Router</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deleniti est facilis incidunt sequi! Perspiciatis!</p>
                 </div>
-                <div onClick={() => handleShow('Accesorios')} className="con_servi shadow col-3">
+                <div onClick={() => handleShow('Accesorios')} className="cursor-pointer con_servi shadow col-3">
                     <span className="icon_servi">
                         <FontAwesomeIcon icon={faKeyboard} />
                     </span>
