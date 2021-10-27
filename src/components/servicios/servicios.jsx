@@ -6,9 +6,11 @@ import InfoServices from '../infoServices/infoServices';
 import Footer from '../footer/footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChalkboardTeacher, faChartBar } from '@fortawesome/free-solid-svg-icons';
+import WOW from 'wowjs';
 
  const Servicios = () => {
 
+    new WOW.WOW().init();
     return (
         <div className="" >
 

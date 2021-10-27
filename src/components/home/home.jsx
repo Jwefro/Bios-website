@@ -3,6 +3,7 @@ import "./home.css";
 import "animate.css";
 import servicio1 from "../../assets/imagenes/servicio1.jpg";
 import productos1 from "../../assets/imagenes/productos1.jpg";
+import logo from '../../assets/imagenes/logo.png';
 import DS1 from "../../assets/imagenes/DS1.jpg";
 import Footer from '../footer/footer';
 import Carousel from '../carousel/carousel';
@@ -14,7 +15,7 @@ const Home = () => {
                 
                 <div className="con   animate__animated animate__flash">
                     
-                    <span className="present1 ">SERVICIOS INFORMATICOS</span>
+                       <img src={logo} className="logoBios" alt="" />
 
                 </div>
                

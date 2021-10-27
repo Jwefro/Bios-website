@@ -23,10 +23,12 @@
 .cardProductos{
     width: 250px;
     height: 320px;
-    border-radius: 8px;
+ 
+    cursor: pointer;
 }
 .cardProductos:hover{
-    box-shadow: 0 1rem 3rem rgba(243, 243, 243, 0.175)!important;
+
+    transform: translateY(-21px);
 
 }
 .td8{
@@ -57,6 +59,49 @@ margin: 0;
 }
 
 
+.contenidoSandisk{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.imgSandisk{
+width: 45%;
+background-color: black;
+}
+.sandiskConten{
+    background-color: rgb(63, 62, 62);
+    width: 55%;
+}
+.imgDisk{
+    height: 400px;
+    width: 450px;
+
+}
+.logoSandisk{
+    height: 100px;
+    width: 320px;
+    display: flex;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.tabla-datos{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+}
+.tabla-datos p{
+    color: silver;
+    margin: 0;
+    margin-bottom: 5px;
+    margin-left: 50px;
+    padding: 0;
+}
+
+
+
 
 @media screen and (max-width: 440px) { 
 
@@ -75,5 +120,36 @@ margin: 0;
         left: 10px;
         top: 15px;
      }
+     .contenidoProductos h3{
+         font-size: 2.4rem;
+         margin: 0;
+     }
+     .imgDisk{
+        height: 200px;
+        width: 250px;
+    
+    }
+    .logoSandisk{
+        height: 100px;
+        width: 220px;
+
+    }
+    .imgSandisk{
+        width: 100%;
+        background-color: black;
+        }
+        .sandiskConten{
+            background-color: rgb(63, 62, 62);
+            width: 100%;
+        }
+        .tabla-datos p{
+            color: silver;
+            margin: 0;
+            margin-bottom: 5px;
+            margin-left: 20px;
+            padding: 0;
+        }
+        
+        
 
 }

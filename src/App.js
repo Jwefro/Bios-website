@@ -23,7 +23,7 @@ return(
       <div>
         <div className="separador">
           <nav className="navbar  bg-dark">
-              {/*<img src={logo} width={100} alt="logo"/>*/}
+             
             <input type="checkbox" id="check"/>
             <label form="check" className="fabars"><FontAwesomeIcon icon={faBars} /></label>
 

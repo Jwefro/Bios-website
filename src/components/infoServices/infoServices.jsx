@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faDesktop, faLaptop,faTv,faHdd,faKeyboard,faPrint } from '@fortawesome/free-solid-svg-icons';
 import services from './services.json';
 import "animate.css";
-import WOW from "wowjs"
+import WOW from 'wowjs'
 
 export default function Example() {
     const [state, setState] = useState({name: '', list: []})
@@ -21,42 +21,42 @@ export default function Example() {
     return (
         <>
             <div className="row ">
-                <div onClick={() => handleShow('CPU')} className="con_servi shadow col-3 wow animate__animated animate__fadeIn " data-wow-delay=".5s" data-wow-interation="1">
+                <div onClick={() => handleShow('CPU')} className="cursor-pointer con_servi shadow col-3 wow animate__animated animate__fadeIn  " data-wow-delay="1s" date-wow-offset="80" data-wow-interation="1">
                     <span className="icon_servi" >
                         <FontAwesomeIcon icon={faDesktop}  />
                     </span>
                     <h5>CPU</h5>
                     <p> Reparacion y mantenimiento correctivo y preventido de software y hardware Para Computadoras de escritorio</p>
                 </div>
-                <div onClick={() => handleShow('Laptop')} className="con_servi shadow col-3 wow animate__animated animate__fadeIn " data-wow-delay=".3s" data-wow-interation="1">
+                <div onClick={() => handleShow('Laptop')} className="cursor-pointer con_servi shadow col-3 wow animate__animated animate__fadeIn  " data-wow-delay=".4s" date-wow-offset="80" data-wow-interation="1">
                     <span className="icon_servi">
                         <FontAwesomeIcon icon={faLaptop} />
                     </span>
                     <h5>Laptop</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, voluptatibus!</p>
                 </div>
-                <div onClick={() => handleShow('Monitor')} className="con_servi shadow col-3 wow animate__animated animate__fadeIn " data-wow-delay=".2s" data-wow-interation="1">
+                <div onClick={() => handleShow('Monitor')} className="cursor-pointer con_servi shadow col-3 wow animate__animated animate__fadeIn  " data-wow-delay="0.5s" date-wow-offset="80" data-wow-interation="1">
                     <span className="icon_servi">
                         <FontAwesomeIcon icon={faTv} />
                     </span>
                     <h5>Monitor</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti doloremque fugiat id non quis sed?</p>
                 </div>
-                <div onClick={() => handleShow('Impresoras')} className="con_servi shadow col-3 wow animate__animated animate__fadeIn " data-wow-delay=".7s" data-wow-interation="1">
+                <div onClick={() => handleShow('Impresoras')} className="cursor-pointer con_servi shadow col-3 wow animate__animated animate__fadeIn  " data-wow-delay=".7s" date-wow-offset="80" data-wow-interation="1">
                     <span className="icon_servi">
                         <FontAwesomeIcon icon={faPrint} />
                     </span>
                     <h5>Impresoras</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, repellat, sint. Dolorem odit qui tenetur.</p>
                 </div>
-                <div onClick={() => handleShow('Modem/Router')} className="con_servi shadow col-3 wow animate__animated animate__fadeIn " data-wow-delay=".2s" data-wow-interation="1">
+                <div onClick={() => handleShow('Modem/Router')} className="cursor-pointer con_servi shadow col-3 wow animate__animated animate__fadeIn  " data-wow-delay=".3s" date-wow-offset="80" data-wow-interation="1">
                     <span className="icon_servi">
                         <FontAwesomeIcon icon={faHdd} />
                     </span>
                     <h5>Modem/Router</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deleniti est facilis incidunt sequi! Perspiciatis!</p>
                 </div>
-                <div onClick={() => handleShow('Accesorios')} className="con_servi shadow col-3 wow animate__animated animate__fadeIn " data-wow-delay=".1s" data-wow-interation="1">
+                <div onClick={() => handleShow('Accesorios')} className="cursor-pointer con_servi shadow col-3 wow animate__animated animate__fadeIn  " data-wow-delay="1s" date-wow-offset="80" data-wow-interation="1">
                     <span className="icon_servi">
                         <FontAwesomeIcon icon={faKeyboard} />
                     </span>
