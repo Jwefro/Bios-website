@@ -41,7 +41,7 @@ import WOW from 'wowjs';
 <br />
 <br />
   
-              <h2 className="contenidoWebH2 mt-5 wow animate__animated animate__fadeIn " data-wow-delay=".5s" data-wow-interation="1">Desarrollo de páginas web y tiendas online </h2>
+              <h2 id="contenidoWeb" className="contenidoWebH2 mt-5 wow animate__animated animate__fadeIn " data-wow-delay=".5s" data-wow-interation="1">Desarrollo de páginas web y tiendas online </h2>
 
         <div className="container mb-5 mt-5 wow animate__animated animate__fadeIn " data-wow-delay=".7s" data-wow-interation="1"> 
             <p>            En <b>Bios servicios informaticos</b> disponemos de un Departamento especializado en el <b>desarrollo de páginas web</b>y <b>tiendas online de comercio electrónico</b> . Somos una empresa de informática que ofrece el desarrollo y diseño web, el diseño de tiendas online, re-diseño con adaptación a móviles, tablets y el diseño de páginas web cubriendo todas tus necesidades profesionales, institucionales y/o personales. 
@@ -52,7 +52,7 @@ Cubrimos todas las necesidades de su empresa en diseño web, encargándonos de t
         </div>
 
 
-        <div className="contenidoWeb">         
+        <div  className="contenidoWeb">         
               
                 
        
@@ -93,7 +93,7 @@ Cubrimos todas las necesidades de su empresa en diseño web, encargándonos de t
                     <div className="centrarPresupuesto"><h2>¿Necesitas un presupuesto para tu empresa?</h2>
                     <p>Solicita una consulta y un técnico profesional de Bios Servicios informaticos te ofrecerá la mejor solución para tu problema. ¡Presupuesto sin compromiso!</p>
 
-                    <button type="button" className="btn buttonPresupuesto">Solicita tu presupuesto sin compromiso</button></div>
+                    <a href="http://localhost:3000/contactos#consulta"><button type="button" className="btn buttonPresupuesto">Solicita tu presupuesto sin compromiso</button></a> </div>
                     
                 </div>
             </div>

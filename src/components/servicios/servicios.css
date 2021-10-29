@@ -238,5 +238,8 @@ text-align: left;
     .portada_text:hover{
         transform: none;
     }
+    .buttonPresupuesto{
+        display: none;
+    }
  
  }

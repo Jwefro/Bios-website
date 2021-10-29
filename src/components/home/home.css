@@ -28,6 +28,10 @@ html,body{
     align-items: center;
     
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 .con{
     background: rgba(12, 12, 12, 0.63);
 
@@ -313,7 +317,7 @@ position: relative;
         display: none;
 
     }
-    .btn{
+    .row .btn{
         display: none;
     }
     .container1{

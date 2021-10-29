@@ -147,8 +147,8 @@ function Contactos() {
                 </div>
             </div>
 
-            <h1 className="aten mb-5">¿Tienes Alguna consulta?</h1>
- <div className="contac shadow ">
+            <h1 id="consulta" className="aten mb-5">¿Tienes Alguna consulta?</h1>
+ <div  className="contac shadow ">
 
 
                 <div className="imgCon wow animate__animated animate__fadeInLeft" data-wow-interation="1">

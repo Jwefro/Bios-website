@@ -103,6 +103,47 @@ background-color: black;
 
 
 
+/*  MODAL PRODUCTOS   */
+
+
+.cardProductos2{
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.imgProduct2{
+    position: relative;
+    height: 250px;
+    width: 250px;
+
+
+}
+.imgProduct3{
+    position: relative;
+    height: 300px;
+    width: 350px;
+
+
+}.td81{
+    position: relative;
+ width: 350px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 440px) { 
 
 .imgProduct1{
