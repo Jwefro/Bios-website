@@ -9,9 +9,10 @@ import Home from './components/home/home';
 import Servicios from './components/servicios/servicios';
 import Contactos from './components/contactos/contactos';
 import Productos from './components/productos/productos';
+import SobreNosotros from './components/sobreNosotros/sobreNosotros';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-import logo from './assets/imagenes/logo.png'
+
 
 
 
@@ -23,10 +24,10 @@ return(
       <div>
         <div className="separador">
           <nav className="navbar  bg-dark">
-             
-            <input type="checkbox" id="check"/>
-            <label form="check" className="fabars"><FontAwesomeIcon icon={faBars} /></label>
-
+            <input type="checkBox" id="check"/>
+              <label for="check" className="fabars"><FontAwesomeIcon icon={faBars} /></label>
+            
+              
         <ul className="nav-menu">
           <li className="nav-item ">
             <Link to="/home" className="nav-link " >Inicio</Link>
@@ -38,7 +39,7 @@ return(
             <Link to="/productos"className="nav-link ">Productos</Link>
           </li>
           <li className="nav-item">
-            <Link to=""className="nav-link ">Sobre Nosotros</Link>
+            <Link to="/sobreNosotros"className="nav-link ">Sobre Nosotros</Link>
           </li>
           <li className="nav-item">
             <Link to="/contactos"className="nav-link ">Contactos</Link>
@@ -60,6 +61,9 @@ return(
               </Route>
               <Route path="/productos">
                 <Productos />
+              </Route>
+              <Route path="/sobreNosotros">
+                <SobreNosotros />
               </Route>
 
     </Switch>

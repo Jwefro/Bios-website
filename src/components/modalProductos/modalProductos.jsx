@@ -70,21 +70,21 @@ class modalProductos extends React.Component {
         <h3>Multifuncionales</h3>
         <div className="container">
          
-            <div className="cardProductos">
+            <div  onClick={()=>this.handleModal4()} className="cardProductos">
                 <img src={L365_ES} className="imgProduct1" alt="" />
-                <div className="td8"><h5>TD-8816</h5>
-                <p>ADSL2+ Modem Router</p></div>
+                <div className="td8"><h5>Epson EcoTank L365</h5>
+                <p>Impresora Multifuncional</p></div>
                 
             </div>
-            <div className="cardProductos">
+            <div onClick={()=>this.handleModal5()} className="cardProductos">
                 <img src={L220_ES} className="imgProduct" alt="" />
-                <h5>TD-W8961N</h5>
-                <p>Módem Router Inalámbrico ADSL2+ N 300Mbps</p>
+                <h5>Epson EcoTank L220</h5>
+                <p>Impresora</p>
             </div>
-            <div className="cardProductos">
+            <div onClick={()=>this.handleModal6()} className="cardProductos">
                 <img src={L565_ES} className="imgProduct"  alt="" />
-                <h5>TL-WR841N</h5>
-                <p>Router inalámbrico N a 300Mbps</p>
+                <h5>Epson EcoTank L565</h5>
+                <p>Impresora Multifuncional</p>
             </div>
             
         </div>
@@ -158,9 +158,69 @@ Control de ancho de banda basado en IP permite a los administradores determinar 
                  <button type="button" className="btn btn-dark" onClick={()=>this.handleModal3()}>cancelar</button>
              </Modal.Footer>
          </Modal>
+         <Modal size="lg" show={this.state.showModal4}>
+             <Modal.Header>
+                 <h5>Epson EcoTank L365</h5>
+             </Modal.Header>
+             <Modal.Body>
+             <div className="cardProductos2">
+                <img src={L365_ES} className="imgProduct2" alt="" />
+                <div className="td81"><h5>Impresora Multifuncional Epson EcoTank L365</h5>
+           
+                <p>
+                La L365 es la multifuncional inalámbrica que redefine la economía en las familias activas de hoy. Única con EcoTank, el sistema original de Tanque de Tinta de Epson, que incluye 1 botella de tinta negra y 3 botellas a color, para imprimir con calidad 4000 páginas en negro o 6500 páginas a color. Con Wi-Fi, imprime desde smartphones y tabletas - para compartir fácilmente los ahorros en el hogar. Al fin, tienes la libertad de imprimir todo lo que quieras. </p>
+                </div>
+                </div>
+             </Modal.Body>
+             <Modal.Footer>
+                 <button className="btn btn-dark"  onClick={()=>this.handleModal4()}>cancelar</button>
+             </Modal.Footer>
+         </Modal>
 
 
+         <Modal size="lg" show={this.state.showModal5}>
+             <Modal.Header>
+                 <h5>Epson EcoTank L220</h5>
+             </Modal.Header>
+             <Modal.Body>
+             <div className="cardProductos2">
+                <img src={L220_ES} className="imgProduct2" alt="" />
+                <div className="td81"><h5>Impresora Epson EcoTank L220</h5>
+           
+            
+                    <p>
+                    La L220 es la multifuncional que revoluciona la economía en los hogares activos de hoy. Única con EcoTank, el sistema original de Tanque de Tinta de Epson, que incluye 1 botella de tinta negra y 3 botellas a color, para imprimir con calidad 4000 páginas en negro o 6500 páginas a color. Imprime cientos de proyectos escolares, páginas Web, fotos, y todo lo que quieras, sin preocuparte por quedarte sin tinta cuando más la necesites. Al fin, tienes la libertad de imprimir todo lo que quieras.
 
+                    </p>
+                </div>
+                </div>
+             </Modal.Body>
+             <Modal.Footer>
+                 <button className="btn btn-dark"  onClick={()=>this.handleModal5()}>cancelar</button>
+             </Modal.Footer>
+         </Modal>
+
+
+         <Modal size="lg" show={this.state.showModal6}>
+             <Modal.Header>
+                 <h5>Epson EcoTank L565</h5>
+             </Modal.Header>
+             <Modal.Body>
+             <div className="cardProductos2">
+                <img src={L565_ES} className="imgProduct2" alt="" />
+                <div className="td81"><h5>Impresora Epson EcoTank L220</h5>
+           
+            
+                    <p>
+                    La L565 es la multifuncional completa para tu negocio, ideal para altos volúmenes de impresión con un bajo costo de operación y mayor productividad. Única con EcoTank, el sistema original de Tanque de Tinta de Epson, que incluye 1 botella de tinta negra y 3 botellas a color, para imprimir 4000 páginas en negro o 6500 páginas a color. Con la solución completa en conectividad inalámbrica y red Ethernet, comparte fácilmente los ahorros con todos en la oficina o remotamente. Incluye alimentador automático de documentos de 30 páginas para copiar, escanear y enviar por fax a color. Al fin, tienes la libertad de imprimir todo lo que quieras.
+                    </p>
+                </div>
+                </div>
+             </Modal.Body>
+             <Modal.Footer>
+                 <button className="btn btn-dark"  onClick={()=>this.handleModal6()}>cancelar</button>
+             </Modal.Footer>
+         </Modal>
 
 
         </div>
