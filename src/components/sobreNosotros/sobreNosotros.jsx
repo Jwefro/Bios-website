@@ -27,7 +27,7 @@ function sobreNosotros() {
     <div className="textMision shadow">
         <h1>Misión</h1>
         <p>
-        Brindar un servicio Técnico fundamentado en capacidad tecnológica y la confianza que nuestros clientes depositan en nosotros, solucionando eficientemente situaciones que requieren experiencia, habilidad y eficacia, para maximizar el desempeño de los equipos de computación, ya sea en hogares, empresas públicas o privadas.
+        Brindar un Servicio Técnico fundamentado en capacidad tecnológica y en la confianza que nuestros clientes depositan en nosotros, solucionando eficientemente situaciones que requieren experiencia, habilidad y eficacia para maximizar el desempeño de los equipos de computación; ya sea en hogares y empresas públicas o privadas.
         </p>
     </div>
     <div className="imgMision2"></div>

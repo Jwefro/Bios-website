@@ -101,16 +101,16 @@ class modalProductos extends React.Component {
                 <div className="td81"><h5>TD-8816</h5>
                 <p>ADSL2+ Modem Router</p>
                 <p>
-                Proporciona acceso a Internet a través del servicio ADSL y crea una red cableada de intercambio, todos con un solo producto
-Funciona con los últimos estándares ADSL: hasta 24 Mbps de rendimiento superior,
-El Firewall integrado lo protege contra ataques de Internet
-Diversas políticas de QoS permiten diversas aplicaciones, para satisfacer las necesidades de las diferentes personas
+                Proporciona acceso a Internet a través del servicio ADSL y crea una red cableada de intercambio, todos con un sólo producto.
+Funciona con los últimos estándares ADSL: hasta 24 Mbps de rendimiento superior
+el Firewall integrado lo protege contra ataques de Internet.
+Diversas políticas de QoS permiten diversas aplicaciones para satisfacer las necesidades de las diferentes personas.
                 </p>
                 </div>
                 </div>
              </Modal.Body>
              <Modal.Footer>
-                 <button className="btn btn-dark"  onClick={()=>this.handleModal1()}>cancelar</button>
+                 <button className="btn btn-dark"  onClick={()=>this.handleModal1()}>Cerrar</button>
              </Modal.Footer>
          </Modal>
 
@@ -126,14 +126,14 @@ Diversas políticas de QoS permiten diversas aplicaciones, para satisfacer las n
                 <div className="td81">
                 <h5>Módem Router Inalámbrico ADSL2+ N 300Mbps</h5>
                 <p>Dispositivo Todo en Uno: El Módem ADSL2 +, Router NAT, Switch de 4 puertos y punto de acceso inalámbrico N
-Velocidad inalámbrica N de hasta 300Mbps lo hace ideal para el ancho de banda de consumo pesada o interrupción de aplicaciones sensibles como los juegos en línea, llamadas por Internet e incluso el transmisión de video de alta definición
-El Asistente de Configuración con soporte multi-idioma ofrece una instalación rápida y sin complicaciones
-Encriptación segura Inalámbrica presionando el botón WPS y fácil acceso a Wi-Fi con el botón de encendido/apagado   </p>
+Velocidad inalámbrica N de hasta 300Mbps lo hace ideal para el ancho de banda de consumo pesada o interrupción de aplicaciones sensibles como los juegos en línea, llamadas por Internet e incluso la transmisión de video de alta definición.
+El Asistente de Configuración con soporte multi-idioma ofrece una instalación rápida y sin complicaciones.
+Encriptación segura Inalámbrica presionando el botón WPS y fácil acceso a Wi-Fi con el botón de encendido/apagado.   </p>
                 </div>
             </div>
              </Modal.Body>
              <Modal.Footer>
-                 <button  className="btn btn-dark"  onClick={()=>this.handleModal2()}>cancelar</button>
+                 <button  className="btn btn-dark"  onClick={()=>this.handleModal2()}>Cerrar</button>
              </Modal.Footer>
          </Modal>
 
@@ -146,16 +146,16 @@ Encriptación segura Inalámbrica presionando el botón WPS y fácil acceso a Wi
              <div className="cardProductos2">
                 <img src={TLWR841N} className="imgProduct3"  alt="" />
                 <div className="td81"> <h5>Router inalámbrico N a 300Mbps</h5>
-                <p>Velocidad inalámbrica ideal de 300 Mbps para las aplicaciones sensibles como la interrupción de la difusión de videos HD
-Dos antenas aumentan en gran medida la solidez y la estabilidad inalámbrica
-Encriptado fácil de la seguridad inalámbrica sólo presionando el botón QSS
-Control de ancho de banda basado en IP permite a los administradores determinar la cantidad de ancho de banda asignado a cada PC</p>
+                <p>Velocidad inalámbrica ideal de 300 Mbps para las aplicaciones sensibles como la interrupción de la difusión de videos HD.
+Dos antenas aumentan en gran medida la solidez y la estabilidad inalámbrica.
+Encriptado fácil de la seguridad inalámbrica sólo presionando el botón QSS.
+Control de ancho de banda basado en IP permite a los administradores determinar la cantidad de ancho de banda asignado a cada PC.</p>
                 </div>
                
             </div>
              </Modal.Body>
              <Modal.Footer>
-                 <button type="button" className="btn btn-dark" onClick={()=>this.handleModal3()}>cancelar</button>
+                 <button type="button" className="btn btn-dark" onClick={()=>this.handleModal3()}>Cerrar</button>
              </Modal.Footer>
          </Modal>
          <Modal size="lg" show={this.state.showModal4}>
@@ -173,7 +173,7 @@ Control de ancho de banda basado en IP permite a los administradores determinar 
                 </div>
              </Modal.Body>
              <Modal.Footer>
-                 <button className="btn btn-dark"  onClick={()=>this.handleModal4()}>cancelar</button>
+                 <button className="btn btn-dark"  onClick={()=>this.handleModal4()}>Cerrar</button>
              </Modal.Footer>
          </Modal>
 
@@ -196,7 +196,7 @@ Control de ancho de banda basado en IP permite a los administradores determinar 
                 </div>
              </Modal.Body>
              <Modal.Footer>
-                 <button className="btn btn-dark"  onClick={()=>this.handleModal5()}>cancelar</button>
+                 <button className="btn btn-dark"  onClick={()=>this.handleModal5()}>Cerrar</button>
              </Modal.Footer>
          </Modal>
 
@@ -218,7 +218,7 @@ Control de ancho de banda basado en IP permite a los administradores determinar 
                 </div>
              </Modal.Body>
              <Modal.Footer>
-                 <button className="btn btn-dark"  onClick={()=>this.handleModal6()}>cancelar</button>
+                 <button className="btn btn-dark"  onClick={()=>this.handleModal6()}>Cerrar</button>
              </Modal.Footer>
          </Modal>
 

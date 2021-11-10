@@ -35,7 +35,7 @@ const Home = () => {
             
         <div className="separador">
 
-        <p>ESPECIALIZADOS EN SERVICIO TECNICO</p>
+        <p>ESPECIALIZADOS EN SERVICIO TÉCNICO</p>
 
         </div>
         <div className="container " >
@@ -49,8 +49,8 @@ const Home = () => {
             <div  className="card">
                 <a href="http://localhost:3000/servicios">
                 <img src={servicio1} alt="" />
-                <h4>Servicio Tecnico</h4>
-                <p> lista de servicios que la empresa ofrece. para el mantenimiento y reparacion de equipos</p></a>
+                <h4>Servicio Técnico</h4>
+                <p> Lista de servicios que la empresa ofrece para el mantenimiento y reparación de equipos.</p></a>
             </div>
 
             <div className="card">

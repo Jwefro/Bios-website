@@ -12,8 +12,8 @@ export default function Footer ()  {
 
         </div>
     <div className=" pie col-4">
-        <p className="p1">ESCRIBENOS</p>
-    <input type="text" className="input" placeholder="  Escribe tu Email aqui" />
+        <p className="p1">ESCRÍBENOS</p>
+    <input type="text" className="input" placeholder="  Escribe tu Email aquí" />
     <button className="btn btn-lit">Enviar</button>
     
         </div>

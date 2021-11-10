@@ -17,8 +17,8 @@ import WOW from 'wowjs';
             <div className="portada">
                 <div className="row row">
                     <div className="portada_text col-5 ">
-                        <p className="p3">¿Necesitas Soporte Tecnico?</p>
-                        <p className="p4"> Te ofrecemos un excelente servicio en recuperacion de datos, instalacion de programas, Mantenimiento preventivo y correctivo de Software y Hardware</p>
+                        <p className="p3">¿Necesitas Soporte Técnico?</p>
+                        <p className="p4"> Te ofrecemos un excelente servicio en recuperación de datos, instalación de programas, mantenimiento preventivo y correctivo de Software y Hardware.</p>
                     </div>
                     <div className="portada_img col-5 animate__animated animate__fadeInRight ">
                         <img src={servicio_tecnico} alt="" />
@@ -31,8 +31,8 @@ import WOW from 'wowjs';
                     <p> Nuestro trato, rapidez, experiencia y el desarrollo de soluciones personalizadas. Nuestros clientes siempre son prioridad </p>
                  </div>       
 
-                    <h1 className="contenidoWebH2 servi_ofre animate__animated animate__fadeInLeft">Servicio Tecnico </h1>
-                        <h5 className="mb-5 animate__animated animate__fadeInRight" >Puedes ver la lista de servicio tecnico que te ofrecemos por cada equipo clickeando en su nombre respectivo</h5>
+                    <h1 className="contenidoWebH2 servi_ofre animate__animated animate__fadeInLeft">Servicio Técnico </h1>
+                        <h5 className="mb-5 animate__animated animate__fadeInRight" >Puedes ver la lista de servicio técnico que te ofrecemos por cada equipo clickeando en su respectivo nombre </h5>
                         <br />
                         <br />
 
@@ -44,10 +44,10 @@ import WOW from 'wowjs';
               <h2 id="contenidoWeb" className="contenidoWebH2 mt-5 wow animate__animated animate__fadeIn " data-wow-delay=".5s" data-wow-interation="1">Desarrollo de páginas web y tiendas online </h2>
 
         <div className="container mb-5 mt-5 wow animate__animated animate__fadeIn " data-wow-delay=".7s" data-wow-interation="1"> 
-            <p>            En <b>Bios servicios informaticos</b> disponemos de un Departamento especializado en el <b>desarrollo de páginas web</b>y <b>tiendas online de comercio electrónico</b> . Somos una empresa de informática que ofrece el desarrollo y diseño web, el diseño de tiendas online, re-diseño con adaptación a móviles, tablets y el diseño de páginas web cubriendo todas tus necesidades profesionales, institucionales y/o personales. 
+            <p>            En <b>Bios servicios informáticos</b> disponemos de un departamento especializado en el <b>desarrollo de páginas web </b>y <b>tiendas online de comercio electrónico</b> . Somos una empresa de informática que ofrece el desarrollo y diseño web, el diseño de tiendas online, re-diseño con adaptación a móviles, tablets y el diseño de páginas web cubriendo todas tus necesidades profesionales, institucionales y/o personales. 
 <br />
 <br />
-Cubrimos todas las necesidades de su empresa en diseño web, encargándonos de todo el proceso. No es suficiente con diseñar páginas webs atractivas, hay que diseñar páginas webs rápidas, eficientes e intuitivas. Un servicio que se recomienda trabajar para mejorar la imagen de empresa y conseguir nuevos clientes es la gestión de las redes sociales.
+Cubrimos todas las necesidades de su empresa en diseño web, encargándonos de todo el proceso. No es suficiente con diseñar páginas webs atractivas, hay que diseñar páginas webs rápidas, eficientes e intuitivas. Un servicio que se recomienda trabajar para mejorar la imágen de empresa y conseguir nuevos clientes es la gestión de las redes sociales.
 </p>
         </div>
 
@@ -91,7 +91,7 @@ Cubrimos todas las necesidades de su empresa en diseño web, encargándonos de t
             <div className="necesitasPresupuesto shadow">
                 <div className="contenidoPresupuesto">
                     <div className="centrarPresupuesto"><h2>¿Necesitas un presupuesto para tu empresa?</h2>
-                    <p>Solicita una consulta y un técnico profesional de Bios Servicios informaticos te ofrecerá la mejor solución para tu problema. ¡Presupuesto sin compromiso!</p>
+                    <p>Solicita una consulta y un técnico profesional de Bios Servicios informáticos te ofrecerá la mejor solución para tu problema. ¡Presupuesto sin compromiso!</p>
 
                     <a href="http://localhost:3000/contactos#consulta"><button type="button" className="btn buttonPresupuesto">Solicita tu presupuesto sin compromiso</button></a> </div>
                     

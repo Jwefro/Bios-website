@@ -2,9 +2,9 @@
   {
     "name": "Laptop",
     "list": [
-      "Revision",
+      "Revisión",
       "Mantenimiento General Preventivo",
-      "Mantenimiento General Correctivo (Reparacion)",
+      "Mantenimiento General Correctivo (Reparación)",
       "Cambio de Componetes",
       "Reconstruccion  de Carcasa"
     ]
@@ -21,39 +21,39 @@
   {
     "name": "CPU",
     "list": [
-      "Revision",
+      "Revisión",
       "Mantenimiento General Preventivo",
-      "Mantenimiento General Correctivo (Reparacion)",
+      "Mantenimiento General Correctivo (Reparación)",
       "Cambio de Componetes"
     ]
   },
   {
     "name": "Monitor",
     "list": [
-      "Revision",
+      "Revisión",
       "Mantenimiento",
-      "Reparacion"
+      "Reparación"
     ]
   },
   {
     "name": "Impresoras",
     "list": [
-      "Revision Sencilla",
-      "Revision Profunda",
+      "Revisión Sencilla",
+      "Revisión Profunda",
       "EPSON Mantenimiento General (reset + almohadillas + cabezal + purga)",
       "Limpieza de Almohadillas y Carcasa",
       "Limpieza Cabezal Sencilla",
       "Limpieza Cabezal Profunda",
       "EPSON Reset de Impresión",
       "EPSON Purga de Mangueras",
-      "EPSON Instalacion de Sistema de Tinta Continua",
-      "EPSON Instalacion de Tanque Desagüe",
-      "Reparacion Atasco o Toma de Papel",
-      "Reparacion de Tarjeta Logica",
-      "Reparacion de fuente",
+      "EPSON Instalación de Sistema de Tinta Continua",
+      "EPSON Instalación de Tanque Desagüe",
+      "Reparación Atasco o Toma de Papel",
+      "Reparación de Tarjeta Logica",
+      "Reparación de fuente",
       "Cambio de Componente + Pieza",
       "Recarga de Tinta",
-      "Reconstruccion de Componente",
+      "Reconstrucción de Componente",
       "EPSON Mantenimiento General Matriz de Punto"
     ]
   },
@@ -61,17 +61,17 @@
     "name": "Accesorios",
     "list": [
       "Pendrive Limpieza de Virus",
-      "Pendrive Recuperacion de Data",
-      "Revision",
-      "Reparacion de accesorios",
+      "Pendrive Recuperación de Data",
+      "Revisión",
+      "Reparación de accesorios",
       "Fuente de poder - Mantenimiento",
-      "Fuente de poder - Reparacion",
-      "Cargador - Reparacion de Punta",
-      "Cargador - Reparacion de Cable",
-      "Cargador - Reparacion Base de Cable",
-      "Cargador - Reparacion de Fuente de Poder,",
+      "Fuente de poder - Reparación",
+      "Cargador - Reparación de Punta",
+      "Cargador - Reparación de Cable",
+      "Cargador - Reparación Base de Cable",
+      "Cargador - Reparación de Fuente de Poder,",
       "HDD - Respaldo de Datos",
-      "HDD - Recuperacion de Data"
+      "HDD - Recuperación de Data"
     ]
   }
 ]

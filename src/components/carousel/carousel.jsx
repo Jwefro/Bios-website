@@ -25,7 +25,7 @@ function carousel() {
     <div className="separadorimg">
             <div className="textlenovo">
                 <h3>Diseñada para seguir tu ritmo</h3>
-            <p>Una laptop no es solo un producto electrónico, también es una inversión. Es por eso que diseñamos la Ideapad 330 con un recubrimiento protector especial para evitar el desgaste y pies de goma en la cubierta inferior para maximizar la ventilación y extender la vida útil del producto.</p>
+            <p>Una laptop no es sólo un producto electrónico, también es una inversión. Es por eso que diseñamos la Ideapad 330 con un recubrimiento protector especial para evitar el desgaste y con pies de goma en la cubierta inferior para maximizar la ventilación y extender la vida útil del producto.</p>
             </div>
             <div className=""> <img src={lenovo1} className="imgcarousel"  alt="..."/></div>
         </div>

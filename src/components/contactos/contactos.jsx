@@ -81,7 +81,7 @@ function Contactos() {
 
             <div className="fondoContacto">
                 <div className="conta">
-                    <h1>Contactanos</h1>
+                    <h1>Contáctanos</h1>
                     <a target="_blank"
                        href="https://wa.me/584126405345?text=Hola,%20me%20gustaria%20contactarte%20estoy%20interesado%20en%20tu%20trabajo">
                         <FontAwesomeIcon icon={faWhatsapp} className="cursor-pointer animate__animated animate__heartBeat"  date-wow-offset="80" data-wow-interation="5" />
@@ -102,12 +102,12 @@ function Contactos() {
 
             <div className="container">
 
-                <h1 className="aten">Atencion al Cliente</h1>
+                <h1 className="aten">Atención al Cliente</h1>
 
                 <div className="infoContacto ">
                     <div className="infoContactar wow animate__animated animate__rotateInDownLeft" data-wow-delay="1s" date-wow-offset="80" data-wow-interation="1">
 
-                    <p> Puedes contactar con nosotros mediante el Email o el Telefono, y te daremos una respuesta lo antes posible:</p>
+                    <p> Puedes contactar con nosotros mediante Email o Número de Teléfono y te daremos una respuesta lo antes posible:</p>
 
                     <div className="row">
                         <div className="col-1"><FontAwesomeIcon icon={faEnvelope} className="font" /></div>
@@ -119,7 +119,7 @@ function Contactos() {
                     </div>
                     <div className="row">
                         <div className="col-1"><FontAwesomeIcon icon={faPhone} className="font" /></div>
-                        <div className="col-3"> <span> Telefono</span> </div>
+                        <div className="col-3"> <span> Teléfono</span> </div>
                         <h4 className="info">+58 414-1234564</h4>
                          <hr/>
                     </div>
@@ -129,7 +129,7 @@ function Contactos() {
                     </div>
                     <div className="ordenes wow animate__animated animate__rotateInDownRight" data-wow-delay=".5s" data-wow-interation="1">
 
-                        <p className="mt-5">Ingresa tu numero de orden para ver el Status en la que se encuentra tu equipo:</p>
+                        <p className="mt-5">Ingresa tu número de orden para ver el Status en el que se encuentra tu equipo:</p>
 
                         <input type="text" onKeyPress={searchId} className="form-control mb-4" placeholder="665657"/>
                         {
@@ -137,7 +137,7 @@ function Contactos() {
                         }
                         <hr/>
 
-                        <p>Si olvidaste tu numero de orden ingresa tu CI y te mostraemos tus ordenes registradas</p>
+                        <p>Si olvidaste tu número de orden, ingresa tu CI y te mostraremos tus órdenes registradas.</p>
                         <input type="text" onKeyPress={searchCi} className="form-control" placeholder="   Ingresa tu Ci Ejemplo: 27987564"/>
                         {
                             messageCi.length ? (<div className="mt-3 alert alert-danger">{messageCi}</div>) : ''
@@ -147,13 +147,13 @@ function Contactos() {
                 </div>
             </div>
 
-            <h1 id="consulta" className="aten mb-5">¿Tienes Alguna consulta?</h1>
+            <h1 id="consulta" className="aten mb-5">¿Tienes alguna Consulta?</h1>
  <div  className="contac shadow ">
 
 
                 <div className="imgCon wow animate__animated animate__fadeInLeft" data-wow-interation="1">
                     <div className="foncolsulta"><FontAwesomeIcon icon={faAddressBook} className="fontconsulta" />
-                <h4>INFORMACION DE CONTACTO</h4></div>
+                <h4>INFORMACIÓN DE CONTACTO</h4></div>
 
 
                 </div>
@@ -176,13 +176,13 @@ function Contactos() {
                             
                         </div>
                       </div>
-                    <label htmlFor="">Direccion</label>
+                    <label htmlFor="">Dirección</label>
                     <input type="text" placeholder="Escribe aqui tu direccion" />
-                    <label htmlFor="">Correo Electronico</label>
-                    <input type="email" placeholder="Example@gmail.com" />
+                    <label htmlFor="">Correo Electrónico</label>
+                    <input type="email" placeholder="Ejemplo@gmail.com" />
 
                     <label htmlFor="" >Consulta</label>
-                    <input type="text" className="consulta" placeholder="Escribe aqui tu consulta" />
+                    <input type="text" className="consulta" placeholder="Escribe aquí tu consulta" />
 
                     </div>
                 </div>

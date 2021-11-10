@@ -26,42 +26,42 @@ export default function Example() {
                         <FontAwesomeIcon icon={faDesktop}  />
                     </span>
                     <h5>CPU</h5>
-                    <p> Reparacion y mantenimiento correctivo y preventido de software y hardware Para Computadoras de escritorio</p>
+                    <p> Reparación y mantenimiento correctivo y preventivo de software y hardware para computadoras de escritorio.</p>
                 </div>
                 <div onClick={() => handleShow('Laptop')} className="cursor-pointer con_servi shadow col-3 wow animate__animated animate__fadeIn  " data-wow-delay=".4s" date-wow-offset="80" data-wow-interation="1">
                     <span className="icon_servi">
                         <FontAwesomeIcon icon={faLaptop} />
                     </span>
                     <h5>Laptop</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, voluptatibus!</p>
+                    <p>Reparación y mantenimiento correctivo y preventivo de software y hardware para equipos portatiles.</p>
                 </div>
                 <div onClick={() => handleShow('Monitor')} className="cursor-pointer con_servi shadow col-3 wow animate__animated animate__fadeIn  " data-wow-delay="0.5s" date-wow-offset="80" data-wow-interation="1">
                     <span className="icon_servi">
                         <FontAwesomeIcon icon={faTv} />
                     </span>
                     <h5>Monitor</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti doloremque fugiat id non quis sed?</p>
+                    <p>Reparación y mantenimiento correctivo y preventivo de hardware para monitores</p>
                 </div>
                 <div onClick={() => handleShow('Impresoras')} className="cursor-pointer con_servi shadow col-3 wow animate__animated animate__fadeIn  " data-wow-delay=".7s" date-wow-offset="80" data-wow-interation="1">
                     <span className="icon_servi">
                         <FontAwesomeIcon icon={faPrint} />
                     </span>
                     <h5>Impresoras</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, repellat, sint. Dolorem odit qui tenetur.</p>
+                    <p>Reparación y mantenimiento correctivo y preventivo de software y hardware para impresoras.</p>
                 </div>
                 <div onClick={() => handleShow('Modem/Router')} className="cursor-pointer con_servi shadow col-3 wow animate__animated animate__fadeIn  " data-wow-delay=".3s" date-wow-offset="80" data-wow-interation="1">
                     <span className="icon_servi">
                         <FontAwesomeIcon icon={faHdd} />
                     </span>
                     <h5>Modem/Router</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deleniti est facilis incidunt sequi! Perspiciatis!</p>
+                    <p>Reparación y mantenimiento correctivo y preventivo de software y hardware Para modem/Router.</p>
                 </div>
                 <div onClick={() => handleShow('Accesorios')} className="cursor-pointer con_servi shadow col-3 wow animate__animated animate__fadeIn  " data-wow-delay="1s" date-wow-offset="80" data-wow-interation="1">
                     <span className="icon_servi">
                         <FontAwesomeIcon icon={faKeyboard} />
                     </span>
                     <h5>Accesorios</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto in reprehenderit vero! Ipsam, officia, placeat.</p>
+                    <p>Reparación y mantenimiento correctivo y preventivo de software y hardware para los diferentes accesorios para tu Pc.</p>
                 </div>
             </div>
 
@@ -89,7 +89,7 @@ export default function Example() {
                 </Modal.Body>
                 <Modal.Footer>
                     <Button variant="secondary" onClick={handleClose}>
-                        Close
+                        Cerrar
                     </Button>
                 </Modal.Footer>
             </Modal>
